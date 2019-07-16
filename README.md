@@ -2,19 +2,20 @@
 An app that retrieves tweets about SARAi's 9 crops using the Twitter API and MapQuest API
 
 How to Run:
+
 	1. configure the local mysql database
-		-on the root folder, there is a file named "tweets.sql"
-		-open terminal in root folder location and open mysql in command line
+		-on the Tweet-MApp folder, there is a file named "tweets.sql"
+		-open terminal in Tweet-MApp folder location and open mysql in command line
 		-input command:
 			source tweets.sql;
 
 	2. populate database with initial data
-		-on the root folder, there is a file named "initial_data.sql"
-		-open terminal in root folder location and input command:
+		-on the Tweet-MApp folder, there is a file named "initial_data.sql"
+		-open terminal in Tweet-MApp folder location and input command:
 			mysql -u root -p tweets < initial_data.sql
 
 	3. server
-		-open terminal in ./server
+		-open terminal in Tweet-MApp/server
 		-input command:
 			npm i package.json
 		-after installation of node modules, open "index.js" file
@@ -24,7 +25,7 @@ How to Run:
 		-server should now be running
 
 	4. front-end
-		-open another terminal in ./react-app
+		-open another terminal in Tweet-MApp/react-app
 		-input command:
 			npm i package.json
 		-after installation of node modules, input command:
