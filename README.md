@@ -5,13 +5,13 @@ How to Run:
 
 	1. configure the local mysql database
 		-on the Tweet-MApp folder, there is a file named "tweets.sql"
-		-open terminal in Tweet-MApp folder location and open mysql in command line
+		-open terminal in Tweet-MApp/ and open mysql in command line
 		-input command:
 			source tweets.sql;
 
 	2. populate database with initial data
 		-on the Tweet-MApp folder, there is a file named "initial_data.sql"
-		-open terminal in Tweet-MApp folder location and input command:
+		-open terminal in Tweet-MApp/ and input command:
 			mysql -u root -p tweets < initial_data.sql
 
 	3. server
@@ -37,3 +37,4 @@ How to Run:
 			localhost:3000/
 		-administrator webpage can be accessed via:
 			localhost:3000/admin
+		-administrator page password is "password"
