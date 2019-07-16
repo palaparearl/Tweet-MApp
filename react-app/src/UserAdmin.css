@@ -1,0 +1,182 @@
+body {
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+#root {
+  height: 100%;
+}
+
+.app {
+  height: 100%;
+}
+
+.map {
+  height: 65%;
+  width: 100%;
+  z-index: 99;
+}
+
+.message-form {
+  z-index: 9999;
+  position: absolute;
+  top: 80px;
+  left: 30px;
+}
+
+.main-logo {
+  padding-left: 64px;
+  width: auto;
+  height: 50px;
+}
+
+.navbar-link {
+  color: #6C6B6B;
+  font-size: 14px;
+  position: relative;
+  font-weight: 500;
+  text-decoration: none;
+  padding-top: 15px;
+}
+
+#rice-dropdown-link {
+  color: #6C6B6B;
+  font-size: 100%;
+  position: relative;
+  font-weight: 500;
+  padding: 0px 15px 0px 15px;
+}
+
+#corn-dropdown-link {
+  color: #6C6B6B;
+  font-size: 100%;
+  position: relative;
+  font-weight: 500;
+  padding: 0px 15px 0px 15px;
+}
+
+#banana-dropdown-link {
+  color: #6C6B6B;
+  font-size: 100%;
+  position: relative;
+  font-weight: 500;
+  padding: 0px 15px 0px 15px;
+}
+
+#coconut-dropdown-link {
+  color: #6C6B6B;
+  font-size: 100%;
+  position: relative;
+  font-weight: 500;
+  padding: 0px 15px 0px 15px;
+}
+
+#coffee-dropdown-link {
+  color: #6C6B6B;
+  font-size: 100%;
+  position: relative;
+  font-weight: 500;
+  padding: 0px 15px 0px 15px;
+}
+
+#cacao-dropdown-link {
+  color: #6C6B6B;
+  font-size: 100%;
+  position: relative;
+  font-weight: 500;
+  padding: 0px 15px 0px 15px;
+}
+
+#suitability-dropdown-link {
+  color: #6C6B6B;
+  font-size: 100%;
+  position: relative;
+  font-weight: 500;
+  padding: 0px 15px 0px 15px;
+}
+
+#normalized-dropdown-link {
+  color: #6C6B6B;
+  font-size: 100%;
+  position: relative;
+  font-weight: 500;
+  padding: 0px 15px 0px 15px;
+}
+
+#rainfall-dropdown-link {
+  color: #6C6B6B;
+  font-size: 100%;
+  position: relative;
+  font-weight: 500;
+  padding: 0px 15px 0px 15px;
+}
+
+#svtr-dropdown-link {
+  color: #6C6B6B;
+  font-size: 100%;
+  position: relative;
+  font-weight: 500;
+  padding: 0px 15px 0px 15px;
+}
+
+#enhanced-dropdown-link {
+  color: #6C6B6B;
+  font-size: 100%;
+  position: relative;
+  font-weight: 500;
+  padding: 0px 15px 0px 15px;
+}
+
+#drought-dropdown-link {
+  color: #6C6B6B;
+  font-size: 100%;
+  position: relative;
+  font-weight: 500;
+  padding: 0px 15px 0px 15px;
+}
+
+#weather-dropdown-link {
+  color: #6C6B6B;
+  font-size: 100%;
+  position: relative;
+  font-weight: 500;
+  padding: 0px 15px 0px 15px;
+}
+
+#navbar {
+  height: 66px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  opacity: 1;
+}
+
+.dost-logo {
+  padding-right: 38px;
+  width: auto;
+  height: 50px;
+}
+
+.input {
+  width: 20%;
+}
+
+.password-card {
+  z-index: 999;
+  position: absolute;
+  top: 10px;
+  left: 40%;
+}
+
+.app-logo {
+  width: 220px;
+  height: 50px;
+}
+
+.card-bounds {
+  position: absolute;
+  top: 66px;
+  height: 65%;
+  width: 100%;
+}
